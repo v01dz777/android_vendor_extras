@@ -11,6 +11,9 @@ type Product_variables struct {
 	}
 	Target_shim_libs struct {
 		Cppflags []string
+	Uses_qti_camera_device struct {
+		Cppflags []string
+		Shared_libs []string
 	}
 }
 
@@ -20,4 +23,5 @@ type ProductVariables struct {
 	Needs_text_relocations  *bool `json:",omitempty"`
 	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
 	Target_shim_libs  *string `json:",omitempty"`
+	Uses_qti_camera_device  *bool `json:",omitempty"`
 }
