@@ -1,4 +1,4 @@
-aosip_soong:
+extras_soong:
 	$(hide) mkdir -p $(dir $@)
 	$(hide) (\
 	echo '{'; \
